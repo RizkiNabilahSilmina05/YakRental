@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="spinnerItemStyle" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:background">
+            @color/primary_color
+        </item>
+    </style>
+    <style name="spinnerDropDownItemStyle">
+        <item name="android:background">
+            @color/primary_color
+        </item>
+        <item name="android:textSize">
+            25sp
+        </item>
+    </style>
+
+    <style name="textname">
+        <item name="android:textSize">
+            30dp
+        </item>
+    </style>
+</resources>

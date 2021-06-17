@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">YakRental</string>
+    <string name="batal">Batal</string>
+    <string name="keluar">Keluar</string>
+</resources>

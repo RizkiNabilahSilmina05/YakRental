@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Activity.ProfileActivity"
+    android:background="@color/primary_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="110dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/profil_foto"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="128dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/avatar" />
+
+            <TextView
+                android:id="@+id/profil_username"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_below="@+id/profil_foto"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="11dp"
+                android:text="Nama Pengguna"
+                android:textAppearance="@style/textname"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="39dp"
+                android:layout_marginTop="219dp"
+                android:text="e-mail"
+                android:textAppearance="@style/textname" />
+
+            <TextView
+                android:id="@+id/profil_email"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="259dp"
+                android:text="mail.com"
+                android:textAppearance="@style/textname"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="308dp"
+                android:text="NIK"
+                android:textAppearance="@style/textname" />
+
+            <TextView
+                android:id="@+id/profil_nik"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="39dp"
+                android:layout_marginTop="351dp"
+                android:text="mail.com"
+                android:textAppearance="@style/textname"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="393dp"
+                android:text="NO HP"
+                android:textAppearance="@style/textname" />
+
+            <TextView
+                android:id="@+id/profil_nohp"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="436dp"
+                android:text="mail.com"
+                android:textAppearance="@style/textname"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <View
+        android:layout_width="339dp"
+        android:layout_height="82dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/profil" />
+
+    <View
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="326dp"
+        android:background="@drawable/back" />
+
+</RelativeLayout>

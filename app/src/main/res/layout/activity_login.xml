@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Activity.LoginActivity"
+    android:background="@color/primary_color">
+
+    <View
+        android:layout_width="339dp"
+        android:layout_height="82dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/login" />
+
+    <View
+        android:layout_width="339dp"
+        android:layout_height="82dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="138dp"
+        android:background="@drawable/form_kolom" />
+
+    <EditText
+        android:id="@+id/login_username_input"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="165dp"
+        android:hint="Username"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <View
+        android:layout_width="339dp"
+        android:layout_height="82dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="248dp"
+        android:background="@drawable/form_kolom" />
+
+    <EditText
+        android:id="@+id/login_pass_input"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="273dp"
+        android:textColor="@color/white"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white" />
+
+    <View
+        android:id="@+id/login_submit_button"
+        android:layout_width="165dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="122dp"
+        android:layout_marginTop="363dp"
+        android:background="@drawable/submit_button" />
+
+    <TextView
+        android:id="@+id/login_lupa_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="430dp"
+        android:text="Lupa Password? Klik disini"
+        android:textAppearance="@style/textname"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+</RelativeLayout>

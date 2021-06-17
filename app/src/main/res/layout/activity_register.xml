@@ -1,0 +1,169 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Activity.RegisterActivity"
+    android:background="@color/primary_color">
+
+    <View
+        android:layout_width="347dp"
+        android:layout_height="99dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/register" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="750dp">
+            <View
+                android:layout_width="339dp"
+                android:layout_height="82dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="138dp"
+                android:background="@drawable/form_kolom" />
+
+            <EditText
+                android:id="@+id/reg_uname_input"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="61dp"
+                android:layout_marginTop="165dp"
+                android:textColor="@color/white"
+                android:hint="Nama"
+                android:textColorHint="@color/white" />
+
+            <View
+                android:layout_width="339dp"
+                android:layout_height="82dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="231dp"
+                android:background="@drawable/form_kolom" />
+            <EditText
+                android:id="@+id/reg_nik_input"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="64dp"
+                android:layout_marginTop="253dp"
+                android:hint="NIK"
+                android:textColor="@color/white"
+                android:inputType="number"
+                android:textColorHint="@color/white" />
+
+            <View
+                android:layout_width="339dp"
+                android:layout_height="82dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="41dp"
+                android:layout_marginTop="317dp"
+                android:background="@drawable/form_kolom" />
+
+            <EditText
+                android:id="@+id/reg_email_input"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="66dp"
+                android:layout_marginTop="341dp"
+                android:hint="Email"
+                android:textColor="@color/white"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/white" />
+
+            <View
+                android:layout_width="339dp"
+                android:layout_height="82dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="41dp"
+                android:layout_marginTop="404dp"
+                android:background="@drawable/form_kolom" />
+
+            <EditText
+                android:id="@+id/reg_pass_input"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="426dp"
+                android:hint="Password"
+                android:textColor="@color/white"
+                android:inputType="textPassword"
+                android:textColorHint="@color/white" />
+
+            <View
+                android:layout_width="339dp"
+                android:layout_height="82dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="488dp"
+                android:background="@drawable/form_kolom" />
+
+            <EditText
+                android:id="@+id/reg_nohp_input"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="507dp"
+                android:hint="No. HP"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <View
+                android:id="@+id/reg_submit_button"
+                android:layout_width="165dp"
+                android:layout_height="51dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="127dp"
+                android:layout_marginTop="597dp"
+                android:background="@drawable/submit_button" />
+
+            <TextView
+                android:id="@+id/reg_have_account"
+                android:layout_width="wrap_content"
+                android:layout_height="51dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="67dp"
+                android:layout_marginTop="663dp"
+                android:text="Sudah punya akun? Login disini"
+                android:textAppearance="@style/textname"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+
+    </ScrollView>
+</RelativeLayout>
